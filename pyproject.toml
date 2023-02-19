@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "jobscrap"
+version = "0.1.0"
+description = "Job tracker written in python"
+authors = ["Tropa do Von Neumann"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
